@@ -1,4 +1,4 @@
-# Wind Power Poduction Visualization in Finland
+# Wind Power Production Visualization in Finland
 
 ## Description
 This simple Python project visualizes wind power production in Finland on user selected date. It uses Fingrid's dataset "Wind power production -real-time data" which updates every 3 minutes, but the program calculates the averages for each hour for better visualization. The program can be used to get insights of wind power production in Finland and how it flutcuates between days.
@@ -9,6 +9,8 @@ The program is simple: the user needs to just give a date as an input and the pr
 
 Before running, the personal API key must be obtained from Fingrid's website. The link https://data.fingrid.fi/en/instructions contains Fingrid's detailed instructions on how to obtain the API key. 
 Once created, copy the API key and navigate to api.py -file and replace the placeholder in apiKey variable.
+
+## Running the program
 
 Before running use the command
 **pip install -r requirements.txt**
